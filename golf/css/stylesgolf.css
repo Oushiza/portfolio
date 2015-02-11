@@ -1,0 +1,180 @@
+body
+{
+	background-color:#fff;
+	color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+}
+
+#main{
+	width:729px;
+	margin : 0 auto;
+}
+
+#mainnav a{
+	float:left;
+	height:57px;
+	width:122px;
+	margin-bottom:10px;
+}
+
+#mainnav a span, h1 span
+{
+	display:none;
+}
+
+#mainnav a:hover, a.on
+{
+	background-position:left bottom;
+}
+
+#mainnav a.club{
+	background-image:url(../images/club.jpg);
+	width:120px;
+}
+a.membres{
+	background-image:url(../images/membres.jpg);
+}
+a.trous{
+	background-image:url(../images/trous.jpg);
+}
+a.practice{
+	background-image:url(../images/practice.jpg);
+}
+#mainnav a.tournois{
+	background-image:url(../images/tournois.jpg);
+	width:121px;
+}
+a.contacts{
+	background-image:url(../images/contacts.jpg);
+}
+
+h1{
+	background-image:url(../images/illustration.jpg);
+	height:329px;
+	clear:left;
+	margin-bottom:30px;
+}
+
+#gauche{
+	float:left;
+	width:271px;
+	margin-right:9px;
+}
+
+#evenements{
+	border: 1px solid black;
+	background-color:#ccc;
+	margin-bottom:9px;
+}
+#evenements h2
+{
+	background:url("../images/puce.gif") no-repeat 5px center;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Arial black", Arial, Helvetica, sans-serif;
+	padding:8px 0 6px 40px;
+	margin-top:5px;
+}
+#evenements ul
+{
+	background:url("../images/evenements.jpg") no-repeat;
+	padding:110px 10px 10px;
+	margin-top:10px;
+	color:#37a61d;
+	font-size:16px;
+}
+#evenements li
+{
+	margin-bottom:5px;
+}
+#evenements p{
+	padding:0 10px 20px;
+}
+
+#inscription a{
+	background-image:url("../images/golf_illimite.jpg");
+	width:271px;
+	height:152px;
+	display:block;
+}
+#inscription span
+{display:none;}
+#droite{
+	float:left;
+	width:449px;
+	padding-top:149px;
+	background:url("../images/animation1.jpg") no-repeat;
+}
+
+#services{
+	float:left;
+	width:233px;
+	margin-right:1px;
+}
+
+#services ul
+{
+	background:url("../images/nos_services.jpg") no-repeat;
+	padding-top:120px;
+}
+#services li
+{
+	background:url("../images/fleche.gif") no-repeat 0 center;
+	padding-left:30px;
+	height:25px;
+	line-height:25px;
+}
+#services a{
+		color:#000;
+		font-size:16px;
+		font-weight:bold;
+}
+#une{
+	float:left;
+	width:215px;
+}
+
+#une a{
+	color:#999;
+	padding:15px;
+	display:block;
+	font-size:16px;
+	line-height:22px;
+}
+
+#droite h2{
+	background-color:#000;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:"Arial Black", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+footer
+{clear:left;
+background-color:#ccc;
+text-align:center;
+height:50px;
+line-height:50px;
+font-size:12px;
+margin-top:10px;}
+
+footer a{
+	color:#000;
+	text-decoration:none;
+	}
+	
+.retour{clear:both;}
+
+
+
+
+
+
+

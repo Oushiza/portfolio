@@ -1,0 +1,77 @@
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html { height: 100%;}
+body { width: 100%; height: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 0.8em; color: #777;}
+#content { position: relative; width: 300%; height: 100%; transition: all 1s;}
+article { width: 32.50%; height: 100%; display: inline-block; vertical-align: top; padding: 10% 20px;}
+h1 { margin: 20px auto; font-size:1.8em; text-transform: uppercase; color: #555;}
+a { color: #666; font-style: italic; text-decoration: none; transition: color 0.4s ease-in-out;}
+a:hover, input[type=submit]:hover { color:#000;}
+
+header, footer { position: fixed; z-index: 9999; width: 100%; padding: 5px; background-color: #d8d8d8;}
+header { text-align: center;}
+header a { display: block; margin: 5px auto;}
+footer { bottom: 0; left: 0; width: 100%; text-align: center;}
+
+#presentation { position: relative; text-align: center; overflow: hidden;}
+#presentation div { margin: 20px auto;}
+#presentation img { display: none;}
+
+#competences { text-align: center;}
+#competences article { width: 80%; margin: 0 auto;}
+#competences .compColumn { display: inline-block; width: 130px; vertical-align: bottom; margin: 20px 10px; text-align: center; color: #fff;}
+#competences .compColumn .column, #competences .compColumn .reflet { position: relative; width: 60%; margin: 0 auto;}
+#competences .compColumn .column { border-radius: 5px 5px 0 0;}
+#competences .compColumn .column:after { content: ""; position: absolute; left: -30px; bottom: 0; width: 130px; height: 1px; background-color: #ccc;}
+#competences .compColumn .column h2 { position: absolute; bottom: 5px; left: 0; right: 0;}
+#competences .compColumn .html { background-color: #f3692b; height: 160px;}
+#competences .compColumn .css { background-color: #2ea6da; height: 120px;}
+#competences .compColumn .js { background-color: #efc032; height: 40px;}
+#competences .compColumn .wdp { background-color: #464646; height: 60px;}
+#competences .compColumn .ps { background-color: #2364ae; height: 80px;}
+#competences .compColumn .reflet { height: 20px; background: linear-gradient(to bottom, #cccccc 0%,#ffffff 100%);}
+#competences figure { display: none;}
+
+#contact { overflow: hidden;}
+#contact form { width: 100%; margin: 20px auto;}
+#contact input, #contact textarea { display: block; margin: 10px 0; color:#777; font-style:italic; background-color:transparent; border:none; border-left:1px solid #ccc; border-bottom:1px solid #ccc;}
+#contact input[type=text], #contact input[type=email], #contact textarea { width: 100%; margin: 20px 0; padding-left:5px;}
+#contact textarea { resize: none; font-family:Arial, Helvetica, sans-serif;}
+#contact input[type=submit] { padding:1px 2px; cursor:pointer; border:none; transition: color 0.4s ease-in-out;}
+
+/**************************************************************
+Screen larger 480px
+***************************************************************************/
+
+@media screen and (min-width:480px){
+
+	article { padding: 5% 20px;}
+
+	header, footer { background-color: inherit;}
+	header { border-bottom: 1px solid #ed7174; text-align: right; text-transform: uppercase;}
+	header nav a { display: inline-block; padding: 0 10px;}
+	header nav a[href="#competences"] { border-left: 1px solid #777; border-right: 1px solid #777;}
+	header nav a[href="#projets"] { padding: 0 10px; border-right: 1px solid #777;}
+	footer { bottom: 0; left: 0; width: 100%; text-align: center;}
+	footer p { display: inline-block;}
+
+	#presentation div, #contact form { width: 60%;}
+	#presentation img { display: inline-block;}
+
+	#competences h1 { width: 60%;}
+	
+	
+	#contact form legend { width: 100%; text-align: center;}
+	
+	#contact form input[type=text], #contact form input[type=email], #contact form textarea { margin: 40px 0;}
+}
+
+/**************************************************************
+Screen larger 720px
+***************************************************************************/
+
+@media screen and (min-width:720px){
+	#competences h1, #contact form h1 { position: relative;}
+	#competences h1:before, #competences h1:after, #contact form h1:before, #contact form h1:after { content: ""; position: absolute; width: 100px; height: 1px; background-color: #777; top: 50%;}
+	#competences h1:before, #contact form h1:before { left: 0;}
+	#competences h1:after, #contact form h1:after { right: 0;}
+}

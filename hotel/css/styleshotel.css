@@ -1,0 +1,65 @@
+body{background-color:#fff;color:#000;font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:14px;}
+.retour{clear:both;}
+#main{width:955px;margin:0 auto;}
+#topgroup{background-color:#000;color:#fff;height:93px;}
+#topgroup p{text-transform:uppercase;font-size:12px;padding:15px;}
+#topgroup ul{float:right;padding:30px 35px 0;}
+#topgroup li{float:left;}
+#topgroup a{color:#fff;text-decoration:none;padding-right:3px;}
+
+#top{height:380px;background:url("../img/chambre.jpg") no-repeat #603 280px top;padding-right:675px;}
+h1{color:#fff;text-transform:uppercase;height:68px;line-height:68px;font-size:22px;text-align:center;}
+
+nav a{display:block;height:44px;margin-bottom:8px;text-transform:uppercase;line-height:44px;padding-left:50px;color:#000;text-decoration:none;font-size:16px;}
+nav a.on, nav a:hover{background:#000 url("../img/pastille.jpg") no-repeat 8px center;color:#fff;}
+
+#gauche{padding:10px;width:260px;float:left;}
+#droite{padding:10px 0;width:640px;float:left;}
+
+h2{border-bottom:1px solid #000;text-transform:uppercase;font-size:18px;padding-bottom:4px;margin-bottom:10px;font-weight:bold;}
+h2 span{text-transform:lowercase;color:#603;font-weight:normal;}
+p.fleche{background:url("../img/triangle.jpg") no-repeat left 2px; padding:0 10px;margin-bottom:15px;}
+p.fleche span{color:#603;font-weight:bold;}
+#descriptif{border-bottom:1px solid #CCC;padding-bottom:10px;margin-bottom:35px;}
+.bloclien{float:right;background-color:#603;color:#fff;text-transform:uppercase;padding:5px;text-decoration:none;font-weight:bold;font-size:11px;}
+.bloclien:hover{background-color:#906;}
+
+#bienvenue{padding:15px 20px 10px 361px;background:url("../img/bienvenue.jpg") no-repeat 15px 15px #ccc;min-height:245px;margin-bottom:15px;}
+.red{color:#603;}
+#bienvenue p{margin-bottom:15px;}
+
+#decouvertes,#speciales{float:left;width:285px;padding:15px 15px 5px;}
+#decouvertes{margin-right:10px;background-color:#CCC;}
+#speciales{background-color:#603;}
+#deluxe,#single{border-top:1px #888 solid;padding:16px 3px 11px 125px;background:no-repeat left center;}
+#deluxe{background-image:url("../img/offre1.jpg");margin-top:15px;}
+#single{background-image:url("../img/offre2.jpg");border-bottom:1px #888 solid;margin-bottom:10px;}
+#decouvertes h3{font-weight:bold;margin-bottom:6px;}
+#decouvertes h3 span{text-transform:uppercase;}
+#decouvertes p {font-size:11px;margin-bottom:6px;}
+#deluxe a, #single a{text-transform:uppercase;color:#603;text-decoration:none;font-size:11px;font-weight:bold;}
+
+#speciales h2 span{color:#fff;}
+
+#speciales a{display:block;border-top:1px solid #906;color:#fff;text-decoration:none;padding:6px;}
+#speciales span{display:inline-block;}
+.chambre{width:50%;text-transform:uppercase;}
+.nuits{width:20%;}
+.prix{width:20%; text-align:right;}
+#speciales ul{border-bottom:1px solid #906;}
+#speciales a:hover{color:#906;}
+
+footer{clear:both;background-color:#000;height:45px;line-height:45px;text-align:center;color:#CCC;}
+footer a{color:#AAA;text-decoration:none;text-transform:uppercase;}
+footer a.mail{text-transform:lowercase;}
+footer a:hover{color:#fff;}
+
+
+
+
+
+
+
+
+
+
