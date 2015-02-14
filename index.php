@@ -47,8 +47,8 @@
 				--><div class="css">
 	                    <h2>CSS</h2>
 	                </div><!--
-				--><div class="js">
-	                    <h2>Javascript</h2>
+				--><div class="jq">
+	                    <h2>jQuery</h2>
 	                </div><!--
 				--><div class="wdp">
 	                    <h2>Wordpress</h2>
@@ -62,16 +62,16 @@
         	<h1>Projets</h1>
             <figure>
                 <a href="http://www.iesanetwork.com/w.echadli/"><img src="img/projets/portfolio_we.jpg" alt="" class="" data-source="" /></a>
-                <figcaption>Portfolio Widad Echadli</figcaption><br />
+                <figcaption>► <a href="http://www.iesanetwork.com/w.echadli/">Portfolio Widad Echadli</a></figcaption><br />
             </figure><!--
 		--><figure>
                 <a href="http://www.iesanetwork.com/k.lay/"><img src="img/projets/folio.jpg" alt="" class="" data-source="" /></a>
-                <figcaption>Projet IESA Multimédia</figcaption><br />
+                <figcaption>► <a href="http://www.iesanetwork.com/k.lay/">Projet IESA Multimédia</a></figcaption><br />
             </figure>
         </article>
         <article id="contact" class="horizontalScroll">
         	<h1>Contact</h1>
-        	<div>
+        	<div id="mailTo">
         		<img src="img/K_Lay.jpg">
 	            <p>J'habite à Paris (Olympiades).<br>06.88.94.66.05<br>Vous voulez me contactez ?<br><br>Cliquez ici ► <a href="mailto:kevinlay.fr@gmail.com?subject=Contact portfolio">Contact</a></p>
             </div>
@@ -82,12 +82,10 @@
     <script src="js/portfolio.js"></script>
     <script>
         $(document).ready(function() {
-
             $('html, body, *').mousewheel(function(e, delta) {
                 this.scrollLeft -= (delta * 40);
                 e.preventDefault();
             });
-
         });
     </script>
 </body>
