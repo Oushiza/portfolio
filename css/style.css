@@ -51,7 +51,7 @@ Screen larger 480px
     h1 { margin: 3%; font-size: 4vw;}
     h2 { margin: 2%; font-size: 3vw;}
 
-    header { width: initial; height: 100%; padding: 20px 10px; background-color: #fff; border-right: 1px solid #ed7174; text-align: left; text-transform: uppercase;}
+    header { width: auto; height: 100%; padding: 20px 10px; background-color: #fff; border-right: 1px solid #ed7174; text-align: left; text-transform: uppercase;}
     header a img { display: block; margin-bottom: 30px;}
     header nav ul li { display: block; margin: 10px 0;}
     header aside { position: absolute; bottom: 20px;}
