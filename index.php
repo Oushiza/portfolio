@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Portfolio de Kevin Lay Developpeur Front-End.</title>
-    <meta name="description" content="Portfolio de Kevin Lay Developpeur Front-End." />
+    <title>Portfolio de Kevin Lay Webdesigner / Developpeur Front-End.</title>
+    <meta name="description" content="Portfolio de Kevin Lay Webdesigner / Developpeur Front-End." />
     <meta name="author" content="Kevin Lay" />
     <meta name="viewport" content="width=device-height; max-scale=1.0" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
@@ -16,23 +15,23 @@
 <body>
     <section id="content">
         <header>
-        	<a href="#presentation"><img src="img/logo.png"></a>
+        	<a href="#presentation" title="Lien permettant le retour au début du site"><img src="img/logo.png" alt="Logo de Kevin Lay Webdesigner / Developpeur Front-End"></a>
             <nav>
 	            <ul>
-	            	<li><a href="#presentation">Présentation</a></li>
-	            	<li><a href="#competences">Compétences</a></li>
-	            	<li><a href="#projets">Projets</a></li>
-	            	<li><a href="#contact">Contact</a></li>
+	            	<li><a href="#presentation" title="Lien permettant d'aller à la présentation de Kevin Lay Webdesigner / Developpeur Front-End">Présentation</a></li>
+	            	<li><a href="#competences" title="Lien permettant d'aller aux compétences de Kevin Lay Webdesigner / Developpeur Front-End">Compétences</a></li>
+	            	<li><a href="#projets" title="Lien permettant d'aller aux projets de Kevin Lay Webdesigner / Developpeur Front-End">Projets</a></li>
+	            	<li><a href="#contact" title="Lien permettant d'aller à la partie contact de Kevin Lay Webdesigner / Developpeur Front-End">Contact</a></li>
 	            </ul>
             </nav>
             <aside>
-                <a href="cv_kevin_lay.pdf" class="cv" title="Imprimer mon cv" download="">CV</a>
-                <a href="https://twitter.com/Lay_Kev" class="twitter" title="Allez sur mon profil twitter">Twitter</a>
-                <a href="http://www.linkedin.com/pub/kevin-lay/40/900/836" class="link" title="Visitez mon compte linkedin">Linkedin</a>
+                <a href="cv_kevin_lay.pdf" class="cv" title="Visionnez et télechargez le curriculum vitae de Kevin Lay, Webdesigner / Developpeur Front-End (120ko)">CV</a>
+                <a href="https://twitter.com/Lay_Kev" class="twitter" title="Allez sur le profil twitter de Kevin Lay Webdesigner / Developpeur Front-End">Twitter</a>
+                <a href="http://www.linkedin.com/pub/kevin-lay/40/900/836" class="link" title="Visitez le compte linkedin de Kevin Lay Webdesigner / Developpeur Front-End">Linkedin</a>
             </aside>
         </header>
         <article id="presentation" class="horizontalScroll">
-            <h1>Webdesigner / Developpeur Front-End.</h1>
+            <h1>Webdesigner / Developpeur Front-End</h1>
             <div>
                 <h2>Kevin Lay</h2>
                 <p>Une première année en cursus Chef de Projet de Multimédia à l'IESA Multimédia, valorisé par un stage de 6 mois chez Easyvoyage.com au poste d'intégrateur. Et maintenant en formation continue en tant que développeur Multimédia à l'école Multimédia.</p>
@@ -61,19 +60,19 @@
         <article id="projets" class="horizontalScroll">
         	<h1>Projets</h1>
             <figure>
-                <a href="http://www.iesanetwork.com/w.echadli/"><img src="img/projets/portfolio_we.jpg" alt="" class="" data-source="" /></a>
-                <figcaption>► <a href="http://www.iesanetwork.com/w.echadli/">Portfolio Widad Echadli</a></figcaption><br />
+                <a href="http://www.iesanetwork.com/w.echadli/" title="Lien redirigeant vers le site de Widad Echadli"><img src="img/projets/portfolio_we.jpg" alt="Image de présentation du projet de portfolio de Widad Echadli" /></a>
+                <figcaption>► <a href="http://www.iesanetwork.com/w.echadli/" title="Lien redirigeant vers le site de Widad Echadli">Projet de portfolio de Widad Echadli</a></figcaption>
             </figure><!--
 		--><figure>
-                <a href="http://www.iesanetwork.com/k.lay/"><img src="img/projets/folio.jpg" alt="" class="" data-source="" /></a>
-                <figcaption>► <a href="http://www.iesanetwork.com/k.lay/">Projet IESA Multimédia</a></figcaption><br />
+                <a href="http://www.iesanetwork.com/k.lay/" title="Lien redirigeant vers le premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End"><img src="img/projets/folio.jpg" alt="Image de présentation du premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End réalisé en 1ère année à l'IESA Multimédia" /></a>
+                <figcaption>► <a href="http://www.iesanetwork.com/k.lay/" title="Lien redirigeant vers le premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End">Premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End réalisé en 1ère année à l'IESA Multimédia</a></figcaption>
             </figure>
         </article>
         <article id="contact" class="horizontalScroll">
         	<h1>Contact</h1>
         	<div id="mailTo">
-        		<img src="img/K_Lay.jpg">
-	            <p>J'habite à Paris (Olympiades).<br>06.88.94.66.05<br>Vous voulez me contactez ?<br><br>Cliquez ici ► <a href="mailto:kevinlay.fr@gmail.com?subject=Contact portfolio">Contact</a></p>
+        		<img src="img/K_Lay.jpg" alt="Photo de présentation de Kevin Lay Webdesigner / Developpeur Front-End">
+	            <p>J'habite à Paris (Olympiades).<br>06.88.94.66.05<br>Vous voulez me contactez ?<br><br>Cliquez ici ► <a href="mailto:kevinlay.fr@gmail.com" title="Cliquez-ici pour envoyer un mail a Kevin Lay Webdesigner / Developpeur Front-End via votre boite mail par défaut">Contact</a></p>
             </div>
 	        <p class="cop">© 2015 Kevin Lay</p>
         </article>
