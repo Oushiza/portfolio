@@ -8,7 +8,7 @@ article.horizontalScroll { width: 100%; height: 100%; float: left; padding: 4% 2
 
 h1 { margin: 2% auto; font-size: 1.5em; text-align: center; text-transform: uppercase; color: #555;}
 h2 { margin: 1%; font-size: 1.2em; text-align: center}
-p { line-height: 20px;}
+p { font-size: 0.8em; line-height: 20px;}
 a { color: #444; font-style: italic; text-decoration: none; transition: color 0.4s ease-in-out;}
 a:hover, input[type=submit]:hover { color:#000;}
 strong { font-weight: bold;}
@@ -36,6 +36,7 @@ header nav ul li { display: inline-block; margin: 5px;}
 
 #projets { background-color: #E9D8CF;}
 #projets figure img { display: none;}
+#projets figure figcaption { padding: 1%;}
 
 #contact { background: #F2C5BB;}
 #contact #mailTo img { display: none;}
@@ -62,7 +63,6 @@ Screen larger 480px
     header aside a.twitter { background-position: 50% -145px;}
     header aside a.link { background-position: 50% -174px;}
 
-    #presentation div { width: 80%; margin: 0 auto; text-align: center;}
     #presentation img { display: inline-block;}
 
     #contact #mailTo { padding: 1% 2%; text-align: center;}
@@ -78,7 +78,9 @@ Screen larger 720px
 
     h1 { font-size: 3em;}
     h2 { font-size: 2em;}
+    p { font-size: 1em;}
 
+    #presentation div { width: 80%; margin: 0 auto; text-align: center;}
     #presentation:after, #competences:after, #projets:after, #contact:after {  position: absolute; content: ""; top:0; right: 0; width: 40px; height: 100%;}
     #presentation:after { background: url('../img/spriteBordureCategories.png');}
 
