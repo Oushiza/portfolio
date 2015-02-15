@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Portfolio de Kevin Lay Webdesigner / Developpeur Front-End.</title>
-    <meta name="description" content="Portfolio de Kevin Lay Webdesigner / Developpeur Front-End." />
+    <meta name="description" content="Ce site présente aussi bien mon parcours que mes compétences et mes travaux en tant que webdesigner et developpeur Front-End. Je suis aujourd'hui étudiant à l'école Multimédia." />
     <meta name="author" content="Kevin Lay" />
     <meta name="viewport" content="width=device-height; max-scale=1.0" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
@@ -33,8 +33,8 @@
         <article id="presentation" class="horizontalScroll">
             <h1>Webdesigner / Developpeur Front-End</h1>
             <div>
-                <h2>Kevin Lay</h2>
-                <p>Une première année en cursus Chef de Projet de Multimédia à l'IESA Multimédia, valorisé par un stage de 6 mois chez Easyvoyage.com au poste d'intégrateur. Et maintenant en formation continue en tant que développeur Multimédia à l'école Multimédia.</p>
+                <h2>Je suis <em>webdesigner</em>, <em>Developpeur Front-End</em> spécialisé dans l'intégration (langages <strong>HTML</strong> et <strong>CSS</strong>)</h2>
+                <p>Je m'appelle Kevin, je vis à Paris et depuis peu je me spécialise dans les <strong>métiers du web</strong>.J'ai réalisé ma reconversion en 2011 en intégrant le cursus <strong>Chef de Projet de Multimédia</strong> à l'<a href="http://www.iesamultimedia.fr/formation/cycle-bachelor-chef-projet-multimedia" title="Lien vers la formation de chef de projet multimédia à l'IESA Multimédia">IESA Multimédia</a>, valorisé par un stage de 6 mois chez <a href="http://www.easyvoyage.com/" title="Lien vers le site comparatif de voyage, easyvoyage.com">Easyvoyage</a> au poste d'<em>intégrateur</em>. 3 ans plus tard... le temps de financer une nouvelle formation. Je suis en formation continue <em>développeur Multimédia</em> à l'<a href="https://www.ecole-multimedia.com/formation-continue/internet-web-multimedia/informatique-multimedia-2/developpeur-web" title"Lien vers la formation continue de developpeut Multimédia à l'école Multimédia">école Multimédia</a>. Nous y avons étudier plein de langages intéressant : <strong>Javascript</strong>, <strong>jQuery</strong>, <strong>Php</strong>, <strong>Symfony</strong> et <strong>Wordpress</strong> et dans quelques jours il faudra les mettre en pratique lors d'un stage.</p>
             </div>
         </article>
         <article id="competences" class="horizontalScroll">
@@ -60,11 +60,15 @@
         <article id="projets" class="horizontalScroll">
         	<h1>Projets</h1>
             <figure>
-                <a href="http://www.iesanetwork.com/w.echadli/" title="Lien redirigeant vers le site de Widad Echadli"><img src="img/projets/portfolio_we.jpg" alt="Image de présentation du projet de portfolio de Widad Echadli" /></a>
+            	<img src="img/projets/crf.jpg" alt="Image de présentation du site locale de la croix-rouge Villiers/Bry/plessis" />
+                <figcaption>► Site locale de la croix-rouge en cours de déploiement.</a></figcaption>
+            </figure><!--
+		--><figure>
+			<img src="img/projets/portfolio_we.jpg" alt="Image de présentation du projet de portfolio de Widad Echadli" />
                 <figcaption>► <a href="http://www.iesanetwork.com/w.echadli/" title="Lien redirigeant vers le site de Widad Echadli">Projet de portfolio de Widad Echadli</a></figcaption>
             </figure><!--
 		--><figure>
-                <a href="http://www.iesanetwork.com/k.lay/" title="Lien redirigeant vers le premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End"><img src="img/projets/folio.jpg" alt="Image de présentation du premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End réalisé en 1ère année à l'IESA Multimédia" /></a>
+                <img src="img/projets/folio.jpg" alt="Image de présentation du premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End réalisé en 1ère année à l'IESA Multimédia" />
                 <figcaption>► <a href="http://www.iesanetwork.com/k.lay/" title="Lien redirigeant vers le premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End">Premier portfolio de Kevin Lay Webdesigner / Developpeur Front-End réalisé en 1ère année à l'IESA Multimédia</a></figcaption>
             </figure>
         </article>

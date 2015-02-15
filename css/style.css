@@ -6,11 +6,13 @@ body { margin: 0;}
 article.horizontalScroll { width: 100%; height: 100%; float: left; padding: 4% 2% 2%;}
 #presentation, #competences, #projets, #contact { position: relative;}
 
-h1 { margin: 2% auto; font-size: 2em; text-align: center; text-transform: uppercase; color: #555;}
-h2 { margin: 1%; font-size: 1.4em; text-align: center}
+h1 { margin: 2% auto; font-size: 1.5em; text-align: center; text-transform: uppercase; color: #555;}
+h2 { margin: 1%; font-size: 1.2em; text-align: center}
 p { line-height: 20px;}
-a { color: #666; font-style: italic; text-decoration: none; transition: color 0.4s ease-in-out;}
+a { color: #444; font-style: italic; text-decoration: none; transition: color 0.4s ease-in-out;}
 a:hover, input[type=submit]:hover { color:#000;}
+strong { font-weight: bold;}
+em { font-style: italic;}
 
 header { position: fixed; z-index: 9999; width: 100%; padding: 5px; background-color: #fff; text-align: center;}
 header a img { display: none;}
@@ -46,10 +48,10 @@ Screen larger 480px
 
 @media screen and (min-width:480px){
 
-    article.horizontalScroll { padding: 1% 1% 1% 140px;}
+    article.horizontalScroll { padding: 1% 2% 1% 140px;}
 
-    h1 { margin: 3%; font-size: 4vw;}
-    h2 { margin: 2%; font-size: 3vw;}
+    h1 { margin: 3%; font-size: 2em;}
+    h2 { margin: 2%; font-size: 1.5em;}
 
     header { width: auto; height: 100%; padding: 20px 10px; background-color: #fff; border-right: 1px solid #ed7174; text-align: left; text-transform: uppercase;}
     header a img { display: block; margin-bottom: 30px;}
@@ -60,7 +62,7 @@ Screen larger 480px
     header aside a.twitter { background-position: 50% -145px;}
     header aside a.link { background-position: 50% -174px;}
 
-    #presentation div { width: 60%; margin: 0 auto; text-align: center;}
+    #presentation div { width: 80%; margin: 0 auto; text-align: center;}
     #presentation img { display: inline-block;}
 
     #contact #mailTo { padding: 1% 2%; text-align: center;}
@@ -73,6 +75,9 @@ Screen larger 720px
 **************************************************************************/
 
 @media screen and (min-width:720px){
+
+    h1 { font-size: 3em;}
+    h2 { font-size: 2em;}
 
     #presentation:after, #competences:after, #projets:after, #contact:after {  position: absolute; content: ""; top:0; right: 0; width: 40px; height: 100%;}
     #presentation:after { background: url('../img/spriteBordureCategories.png');}
@@ -88,5 +93,6 @@ Screen larger 720px
     #competences .skill .ps { width: 18%; background-color: #2364ae; border-radius: 0 20px 20px 0;}
 
     #projets:after { background: url('../img/spriteBordureCategories.png') 40px top;}
-    #projets figure img { display: block;}
+    #projets figure { display: inline-block; vertical-align: top; width: 33%;}
+    #projets figure img { display: block; max-width: 100%; margin-bottom: 1%;}
 }
